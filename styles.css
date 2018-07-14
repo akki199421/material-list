@@ -1,0 +1,91 @@
+body {
+  padding: 20px;
+  font-family: Helvetica;
+  background: #eee;
+  color: #000;
+}
+
+.input-container {
+  font-size: 18px;
+  padding: 10px 10px 0px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.chips {
+  display: inline-block;
+}
+
+.input-box {
+  font-size: 18px;
+  padding-left: 10px;
+  display: inline-block;
+  border: none;
+  position: relative;
+  background: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 0 12px;
+  border-radius: 32px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.chip-icon {
+  display: block;
+  float: left;
+  background: #009587;
+  width: 32px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin: 0 8px 0 -12px;
+}
+
+.chip-remove {
+  display: inline-block;
+  background: #aaa;
+  border: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 -4px 0 4px;
+  cursor: pointer;
+  font: inherit;
+  line-height: 20px;
+}
+
+.chip-remove:after {
+  color: #e0e0e0;
+  content: "x";
+}
+
+.list-container {
+  position: absolute;
+  background: #fff;
+  padding: 16px;
+}
+
+.highlight {
+  background: #f00;
+}
+
+.list-chip {
+  display: inherit;
+  cursor: pointer;
+  padding: 12px;
+}
+.list-chip:hover {
+  background: #ddd;
+}
